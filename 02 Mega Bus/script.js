@@ -64,7 +64,7 @@ function calculateTotal(){
 
 function bookNow(){
 
-    alert('Congratulation');
+    alert('Congratulation ticket is confirm');
     
  
 
