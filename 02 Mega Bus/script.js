@@ -50,7 +50,8 @@ function calculateTotal(){
     const totalPrice = firstCount * 150 + economyCount *100;
     document.getElementById('sub-total').innerText = totalPrice;
 
-    const tax = totalPrice * 0.1 ;
+    const tax = totalPrice * 0.1;
+     
 
     document.getElementById('taxAmount').innerText = tax;
 
@@ -62,6 +63,7 @@ function calculateTotal(){
 }
 
 function bookNow(){
+    
  const lastButton =   document.getElementById('booknow').innerText = "Your Ticket Is Confirmed";
 
 }
