@@ -63,7 +63,13 @@ function calculateTotal(){
 }
 
 function bookNow(){
+
+    alert('Congratulation');
     
- const lastButton =   document.getElementById('booknow').innerText = "Your Ticket Is Confirmed";
+ //   var newWindow = window.open("about:blank", "", "_blank");
+   // newWindow.document.write("Cogratulation").style.text-align ="center";
+
+
+ //const lastButton =   document.getElementById('booknow').innerText = "Your Ticket Is Confirmed";
 
 }
